@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html ang="en" ng-app="byy">
+<head>
+  <title>Welcome!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html">
+
+
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/galleria.classic.css">
+
+
+
+  <!-- script -->
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/galleria-1.4.2.min.js"></script>
+<!--   <script src="js/augular.min.js"></script>
+  <script src="js/augular-route.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular-route.min.js"></script>
+  <script src="js/galleria.classic.min.js"></script>
+  <script src="js/byy.js"></script>
+
+
+
+</head>
+<body> 
+
+  <div class="mainWrapper">
+    <div class="creditInfo">
+      designed and coded by myself <br>
+      10933 rochester ave <br>
+      byyagp@gmail.com <br>
+    </div>
+    <header class="header">
+      <h1>benjamin bao</h1>
+    </header>
+
+    <nav class="mainNav">
+      <ul class="mainNavOuter">
+        <li class="mainNavMid"><a href="#/edu" title="">education</a>
+          <ul>
+            <li>brown</li>
+            <li>risd</li>
+            <li>ucla</li>
+          </ul>
+        </li>
+        <li class="mainNavMid"><a href="#/exp" title="">experience</a>
+          <ul>
+            <li>sap</li>
+            <li>ucla startup</li>
+            <li>schoolinks</li>
+            <li>ef</li>
+          </ul>
+        </li>
+        <li class="mainNavMid"><a href="#/proj" title="">project</a>
+          <ul>
+            <li>air</li>
+            <li>int part</li>
+            <li>culture</li>
+          </ul>
+        </li>
+        <li class="mainNavMid"><a href="#/skill" title="">skill</a>
+          <ul>
+            <li>programming</li>
+            <li>computer science</li>
+            <li>design</li>
+            <li>dj</li>
+            <li>game</li>
+          </ul>
+        </li>
+        <li><a href="#/design" title="">design</a>
+          <ul>
+            <li>pattern</li>
+            <li>logo</li>
+            <li>drawing</li>
+            <li>webpage</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+<!--     <div class="pattern">
+      
+      <div class="patternRight">
+        <img src="img/pattern1.jpg" alt="pattern1" width="80%">
+      </div>
+      <div class="patternLeft">
+        <canvas width="1em" height="1em">
+          
+        </canvas>
+      </div>
+    </div> -->
+
+    <div class="galleria">
+      <img src="img/nsg.png"></img>
+      <img src="img/rag.png"></img>
+      <img src="img/gt.png"></img>
+      <img src="img/hsk.png"></img>
+      <img src="img/jct.png"></img>
+      <img src="img/p1.png"></img>
+      <img src="img/p2.png"></img>
+      <img src="img/p3.png"></img>
+      <img src="img/p4.png"></img>
+      <img src="img/p5.png"></img>
+    </div>
+
+    <article class="mainContent">
+        <div ng-view></div>
+    </article>
+
+
+
+    <footer>
+      <div class="footer">
+        <div class="footerNav">
+         <ul>
+            <li><a href="#/">about</a></li>
+            <li><a href="#/edu">education</a></li>
+            <li><a href="#/exp">experience</a></li>
+            <li><a href="#/proj">project</a></li>
+            <li><a href="#/skill">skill</a></li>
+            <li><a href="#/design">design</a></li>
+          </ul>
+        </div>
+        <div class="footerContent">
+          <p>you are the 20th visitor</p>
+          <p>some Content Right Here, descriptions n stuff, and some more random text goes here, just to fill up these stupid space and to make the texts look natural, Some Content Right Here, descriptions n stuff, and some more random text goes here, just to fill up</p>
+        </div>
+        <div class="footerLinks">
+          <ul>
+            <li><a href="http://www.linkedin.com/in/benjaminbao" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="http://www.github.com/rouchailatte" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.facebook.com/benjamin.yuyang" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="http://callmeqwer.deviantart.com/" target="_blank"><i class="fa fa-deviantart"></i></a></li>
+          </ul> 
+          <ul class="footerLinksInfo">
+            <li><a href="mailto:byyagp@gmail.com" target="_top">byyagp@gmail.com</a></li>
+            <li>10933 rochester ave, apt 416, ca 90024</li>
+            <li>(310)9139124</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
